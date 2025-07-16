@@ -1,0 +1,71 @@
+/* src/styles/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Rouge+Script&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  color:aliceblue;
+}
+.contact {
+  width: 1100px;
+  height: 100vh;
+  background-color: rgb(2, 1, 18); /* dark gray */
+  color: white;
+
+  align-content:center;
+}
+
+.contact h1 {
+  margin-bottom: 0px;
+  margin-left: 100px;
+  text-align: start;
+  font-family: "rouge script", sans-serif;
+  font-size: 25px;
+  color: #c6a315;
+}
+
+.contact h2 {
+  margin-bottom: 0px;
+  margin-left: 100px;
+  text-align: start;
+  font-family: "rouge script", sans-serif;
+  font-size: 25px;
+  color: #c6a315;
+}
+
+/* style.css or App.css */
+p {
+  font-family: 'Poppins', sans-serif;  
+  font-size: 15px;                     
+  line-height: 0.75;                    
+  color: #9fb9d6;                         
+  margin-bottom: 1rem;                
+  text-align: left;       
+  margin-left: 100px;
+}
+.name {
+
+  margin-bottom: 0px;
+  font-family: "rouge script", sans-serif;
+  font-size: 50px;
+  color: #c6a315;
+}
+.diff
+{
+    font-weight: bold;
+    color: #c6a315;
+    font-family: "rouge script", sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.contact-all
+{
+  font-family: 'Poppins', sans-serif;  
+  font-size: 15px;                     
+  line-height: 0.75;                    
+  color: #9fb9d6;                         
+  margin-bottom: 1rem;                
+  text-align: left;       
+  margin-left: 100px;
+}

@@ -1,0 +1,113 @@
+/* src/styles/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Rouge+Script&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  color:aliceblue;
+}
+.project {
+  width: 1100px;
+  height: 100vh;
+  background-color: rgb(2, 1, 18); /* dark gray */
+  color: white;
+  align-content:center;
+}
+
+.project h1 {
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease-in-out forwards;
+  opacity: 0;
+  text-align:center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: white;
+    
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;    /* place items in columns */
+  grid-gap: 1rem;
+  justify-content: center;   /* center the whole grid */
+}
+.project .project-list  {
+  width: 300px;
+  height: 420px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: start;
+  font-family: "rouge script", sans-serif;
+  font-size: 25px;
+  color: #c6a315;
+  background-color: #222430
+}
+.project .project-list h1 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 23px;
+  color: #c6a315;
+  animation: fadeIn 1.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+/* style.css or App.css */
+.project .project-list p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #9fb9d6;
+  text-align: left;       
+  margin-left: 20px;
+}
+.name {
+
+  margin-bottom: 0px;
+  font-family: "rouge script", sans-serif;
+  font-size: 50px;
+  color: #c6a315;
+}
+.diff
+{
+    font-weight: bold;
+    color: #c6a315;
+    font-family: "rouge script", sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.btn-projects {
+  margin-left: 80px;
+  margin-top: 2px;
+  padding: 0.6rem 1.2rem;
+  background-color: #c6a315;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Segoe UI', 'Franklin Gothic Medium', Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-projects:hover {
+  background-color: #a38c29;
+  transform: translateY(-2px);
+}
+
+.btn-projects:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

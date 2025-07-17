@@ -8,16 +8,14 @@ const Layout = ({ children }) => {
       style={{
         display: "flex",
         height: "100vh",
-        margin: 0,
       }}
     >
       <Sidebar />
       <main
         style={{
           flex: 1,
-          margin: 0, // Match sidebar width if Sidebar is fixed
+          marginLeft: "13%", // Match sidebar width if Sidebar is fixed
           padding: 0,
-          overflowX: "hidden",
         }}
       >
         {children}

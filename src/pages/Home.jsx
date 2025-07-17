@@ -7,6 +7,7 @@ import { FaLaptopCode } from "react-icons/fa";
 
 function Home() {
   return (
+    <div className="Home page">
     <div className="Home">
       <h1>Hello my name is <span className="name">Manal</span></h1>
         <p>I'm a <span className="diff"> fullstack developer </span> <FaLaptopCode size={24}/></p>
@@ -17,6 +18,7 @@ function Home() {
         <a href='#about'>
           <button className="btn-about">About Me</button>
         </a>
+    </div>
     </div>
   );
 }

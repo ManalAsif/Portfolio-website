@@ -11,13 +11,14 @@ body {
   height: 100vh;
   background-color: rgb(2, 1, 18); /* dark gray */
   color: white;
+  overflow-x: hidden;
 
   align-content:center;
 }
 
 .about h1 {
   margin-bottom: 0px;
-  margin-left: 100px;
+  margin-left: 10%;
   text-align: start;
   font-family: "rouge script", sans-serif;
   font-size: 25px;

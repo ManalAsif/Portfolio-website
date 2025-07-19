@@ -3,9 +3,11 @@ import '../styles/contact.css';
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";  
 import { MdEmail } from "react-icons/md";
+import Computer from '../components/computer.jsx';
 function Contact() {
   return (
     <div className='contact'>
+      <Computer/>
       <h1>Contact Me</h1>
       <p>Get in Touch</p>
       <p>If you have any questions or inquiries, feel free to reach out!</p>

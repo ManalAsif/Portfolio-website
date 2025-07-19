@@ -1,21 +1,27 @@
 // src/components/Layout.jsx
 import React from 'react';
-import Sidebar from './sidebar';
+import Sidebar from './Sidebar';
 
 const Layout = ({ children }) => {
   return (
+    
     <div
       style={{
-        display: "flex",
-        height: "100vh",
+        display: 'flex',
+        minHeight: '100vh',
+        width: '100%',
+        backgroundColor: '#00000f', // match your dark theme
+
       }}
     >
       <Sidebar />
       <main
         style={{
           flex: 1,
-          marginLeft: "13%", // Match sidebar width if Sidebar is fixed
-          padding: 0,
+          padding: '2rem',
+          backgroundColor: '#00000f', // match your dark theme
+          overflowy: 'auto',
+          marginLeft: '200px',
         }}
       >
         {children}

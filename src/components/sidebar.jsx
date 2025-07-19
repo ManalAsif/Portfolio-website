@@ -7,6 +7,8 @@ import { FaRegUser } from "react-icons/fa";
 import { MdConnectWithoutContact } from "react-icons/md";
 import logo from '../assets/logo.png';
 import { SiPython ,SiCplusplus,SiNodedotjs,SiMysql } from "react-icons/si";
+import Desktop from './computer.jsx';
+import Computer from './computer.jsx';
 
 // This is a simple sidebar component for a portfolio website
 const Sidebar = () => {
@@ -28,6 +30,7 @@ const Sidebar = () => {
         <li><a href="#about"><FaRegUser size={20} style={{ verticalAlign: 'middle', color: '#c6a315', marginRight: 10 }} />About</a></li>
         <li><a href="#projects"><PiProjectorScreenChart size={20} style={{ verticalAlign: 'middle', color: '#c6a315', marginRight: 10 }} />Projects</a></li>
         <li><a href="#contact"><MdConnectWithoutContact size={20} style={{ verticalAlign: 'middle', color: '#c6a315', marginRight: 10 }} />Contact</a></li>
+     
       </ul>
     </div>
     

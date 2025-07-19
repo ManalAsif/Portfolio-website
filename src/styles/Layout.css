@@ -1,34 +1,5 @@
-.layout {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-}
-
-/* Sidebar stays at 200px by default */
-.sidebar {
-  width: 20%;
-  background-color: #222430;
-}
-
-/* Main content fills the rest */
-.content {
-  flex: 1;
-  padding: 20px;
-  overflow-y: auto;
-}
-
-/* On small screens, stack vertically */
-@media (max-width: 300px) {
-  .layout {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    height: auto;
-  }
-
-  .content {
-    padding: 15px;
-  }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }

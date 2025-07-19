@@ -13,7 +13,7 @@ const Desktop = () => {
     }}>
       <div className="Desktop-animation" style={{
         position: 'absolute',
-        top: '-200px',  // 👈 pushes animation up out of the screen
+        top: '-200px', 
         left: '80%',
         transform: 'translateX(-50%)',
         width: '450px',

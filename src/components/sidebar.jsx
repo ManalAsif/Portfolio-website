@@ -7,8 +7,7 @@ import { FaRegUser } from "react-icons/fa";
 import { MdConnectWithoutContact } from "react-icons/md";
 import logo from '../assets/logo.png';
 import { SiPython ,SiCplusplus,SiNodedotjs,SiMysql } from "react-icons/si";
-import Desktop from './computer.jsx';
-import Computer from './computer.jsx';
+
 
 // This is a simple sidebar component for a portfolio website
 const Sidebar = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import computer from '../animations/computer.json';
+import computer from '../Animations/computer.json';
 
 const Computer = () => {
   return (

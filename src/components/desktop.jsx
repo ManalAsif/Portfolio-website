@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import desktop from '../animations/dpt.json';
+import desktop from '../Animations/dpt.json';
 
 const Desktop = () => {
   return (
